@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
@@ -12,7 +12,7 @@
     <header class="main-header py-3 mb-4 border-bottom">
         <div class="container d-flex justify-content-between align-items-center">
             <h1 class="site-title m-0">🌐Aitu Times</h1>
-            <button id="themeToggle" class="btn toggle-theme" aria-label="Toggle theme">☀️</button>
+            <button id="themeToggle" class="btn toggle-theme">☀️</button>
         </div>
     </header>
 
@@ -21,12 +21,12 @@
             <aside class="col-lg-3 mb-4">
                 <section class="mb-4">
                     <h5 class="section-title">Search Articles</h5>
-                    <input type="text" id="articleSearch" class="form-control" placeholder="Start typing to search..." aria-label="Search articles" />
+                    <input type="text" id="articleSearch" class="form-control" placeholder="Start typing to search..." />
                 </section>
 
                 <section class="mb-4">
                     <h5 class="section-title">Sort Articles</h5>
-                    <select id="sortSelect" class="form-select" aria-label="Sort articles">
+                    <select id="sortSelect" class="form-select">
                         <option value="date">By Date (Newest)</option>
                         <option value="views">By Popularity (Views)</option>
                     </select>
@@ -38,7 +38,7 @@
                 </section>
             </aside>
 
-            <section class="col-lg-9" id="articlesContainer" aria-live="polite" aria-label="News articles">
+            <section class="col-lg-9" id="articlesContainer">
             </section>
         </div>
     </main>
@@ -51,7 +51,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
 
 
 
